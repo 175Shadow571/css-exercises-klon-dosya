@@ -1,0 +1,16 @@
+.yazitipi {
+    background-color: rgb(241, 121, 241);
+    font-family: "Verdana",Dejavu Sans,sans-serif;
+}
+#pbir {
+    color: rgb(0, 110, 255);
+    font-size: 36px;
+}
+.yazitipi.havali {
+    font-size:24px;
+}
+#piki {
+    background-color:hsl(from lightgreen h s l);
+    font-size: 24px;
+    font-weight: bold
+}
