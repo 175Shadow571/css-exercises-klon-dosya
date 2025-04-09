@@ -1,7 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
+
 
 .logo {
   font-size: 48px;
@@ -12,14 +17,19 @@
 }
 
 ul {
-  /* this removes the dots on the list items*/
+  /* bu, liste öğelerindeki noktaları kaldırır */
   list-style-type: none;
+  display: flex;
+  gap: 8px;
+  margin: o;
+  padding: 0;
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
-  /* this removes the line under the links */
+  /* bu, bağlantıların altındaki çizgiyi kaldırır */
   text-decoration: none;
+  flex: 1;
 }
